@@ -45,5 +45,25 @@ public class Main {
         System.out.println("Второй вариант диеты продлится " + weightNorm2 + " дней");
         double middlePlan = (weightNorm + weightNorm2) * 0.5;
         System.out.println("Среднее время диеты составит " + middlePlan + " день");
+
+        // Задание 5
+        int Masha = 67760;
+        double newZpMasha = Masha * 1.1;
+        int oldZpYear = Masha * 12;
+        double newZpYear = newZpMasha * 12;
+        double boostDifference = newZpYear - oldZpYear;
+        System.out.println("Маша теперь получает " + newZpMasha + " в месяц." + "Годовой доход вырос на " + boostDifference + " рублей в год.");
+        int Denis = 83690;
+        double newZpDenis = 1.2 * Denis;
+        int oldZpYear2 = Denis * 12;
+        double newZpYear2 = newZpDenis * 12;
+        double boostDifference2 = newZpYear2 - oldZpYear2;
+        System.out.println("Денис теперь получает " + newZpDenis + " в месяц." + "Годовой доход вырос на " + boostDifference2 + " рублей в год.");
+        int Kristina = 76230;
+        double newZpKristina = Kristina * 1.1;
+        int oldZpYear3 = Kristina * 12;
+        double newZpYear3 = newZpKristina * 12;
+        double boostDifference3 = newZpYear3 - oldZpYear3;
+        System.out.println("Кристина теперь получает " + newZpKristina + " в месяц." + "Годовой доход вырос на " + boostDifference3 + " рублей в год.");
         }
 }
