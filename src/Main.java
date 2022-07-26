@@ -16,8 +16,25 @@ public class Main {
         double boxer2 = 82.7;
         double weightOfAllBoxers = boxer1 + boxer2;
         double weightDifference = boxer2 - boxer1;
-        System.out.println("Общий веc боксёров" + weightOfAllBoxers);
-        System.out.println("Разница в весе боксёров" + weightDifference);
+        System.out.println("Общий веc боксёров " + weightOfAllBoxers);
+        System.out.println("Разница в весе боксёров " + weightDifference);
+
+        // Задание 3
+        short bananas =  5;
+        short bananasGram = 80;
+        short milk = 200;
+        short milkGram = 105;
+        short icecream = 2;
+        short icecreamGram = 100;
+        short eggs = 4;
+        short eggsGram = 70;
+        double weightBreackfast = ((bananas * bananasGram) + ((milk / 100) * milkGram) + (icecream * icecreamGram) + (eggs * eggsGram));
+        System.out.println("Общий вес завтрака в граммах " + weightBreackfast);
+        double weightBreakfastKg = weightBreackfast / 1000;
+        System.out.println("Вес завтрака в килограмах " + weightBreakfastKg);
+
+
+
 
 
     }
