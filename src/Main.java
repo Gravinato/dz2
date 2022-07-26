@@ -33,9 +33,17 @@ public class Main {
         double weightBreakfastKg = weightBreackfast / 1000;
         System.out.println("Вес завтрака в килограмах " + weightBreakfastKg);
 
-
-
-
-
-    }
+        // Задание 4
+        short planDiet = 7;
+        short lossPerDay = 250;
+        double lossPerDayKg = lossPerDay * 0.001;
+        double weightNorm = (planDiet / lossPerDayKg);
+        System.out.println("Первый вариант диеты продлится " + weightNorm + " дней");
+        short lossPerDay2 = 500;
+        double lossPerDayKg2 = lossPerDay2 * 0.001;
+        double weightNorm2 = (planDiet / lossPerDayKg2);
+        System.out.println("Второй вариант диеты продлится " + weightNorm2 + " дней");
+        double middlePlan = (weightNorm + weightNorm2) * 0.5;
+        System.out.println("Среднее время диеты составит " + middlePlan + " день");
+        }
 }
