@@ -10,7 +10,14 @@ public class Main {
         float womanWeight = 107.3f;
         boolean menHeavy = menWeight > 30;
         char bar = 11;
-        System.out.println (menHeavy);
+
+        // Задание 2
+        double boxer1 = 78.2;
+        double boxer2 = 82.7;
+        double weightOfAllBoxers = boxer1 + boxer2;
+        double weightDifference = boxer2 - boxer1;
+        System.out.println("Общий веc боксёров" + weightOfAllBoxers);
+        System.out.println("Разница в весе боксёров" + weightDifference);
 
 
     }
